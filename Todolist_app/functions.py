@@ -1,3 +1,5 @@
+#The Frontend(main.py) which creates the CLI or GUI is decoupled from the Backend(functions.py).
+
 #FILEPATH = filepath
 #read_todos(filepath=FILEPATH)
 
@@ -14,3 +16,6 @@ def write_todos(todos_w, filepath="todos.txt"):
         file.writelines(todos_w)
 
 #Maintain 2 lines gap from functions
+
+if __name__ == "__main__":
+    print(read_todos())
