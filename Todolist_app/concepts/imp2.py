@@ -44,3 +44,23 @@ upper_bound = int(input("Enter the upper bound: "))
 rand = random.randint(lower_bound, upper_bound) 
 
 print(rand)
+
+#
+# NOTE: This script runs only on your local IDE
+import FreeSimpleGUI as sg
+
+feet_label = sg.Text("Enter feet: ")
+feet_input = sg.Input()
+
+inches_label = sg.Text("Enter inches: ")
+inches_input = sg.Input()
+
+button = sg.Button("Convert")
+
+window = sg.Window("Convertor",
+                   layout=[[feet_label, feet_input],
+                           [inches_label, inches_input],
+                           [button]])
+
+window.read()
+window.close()
