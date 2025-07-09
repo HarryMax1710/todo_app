@@ -9,3 +9,5 @@ Study dcet maths
 Drink Milk
 Water can
 Video Call
+Master Python
+Become a Py Developer
