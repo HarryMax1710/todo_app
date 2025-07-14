@@ -33,7 +33,7 @@ while True:
 
             todos = functions.read_todos()
             index = todos.index(todo)
-            todos[index] = new_todo
+            todos[index] = new_todo + "\n"
             functions.write_todos(todos)
             window['todos'].update(values =  todos)
         case 'todos':
