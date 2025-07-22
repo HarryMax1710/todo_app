@@ -1,0 +1,27 @@
+Commands on Git Bash-Unix/Linux Commands
+pwd- it prints out the current directory where you are
+$pwd
+touch-creates a new file
+$touch file2.txt
+ls-Lists all the files in the current directory
+$ls, ls data
+mkdir-Creating a new directory  
+$mkdir data
+cd-Changes the current directory
+$cd data
+cd .. -Takes you back to the before directory
+$cd ..
+rm-Removing a file
+$rm file2.txt
+rmdir-Removing a directory
+$rmdir data
+rm -r -Removing a directory which has content
+$rm -r data
+mv-Renaming a file, moves a file from one filepath to a new filepath
+$mv file2.txt file25.txt, mv file30.txt data/file30.txt
+cp-To copy a file
+$cp file3.py data/file3.py
+nano-to open a file for editing- Ctrl+X and Type Y to save and exit, Ctrl + C to cancel and go back to the editor
+$nano doom.py
+cat-to view to contents of a file
+$cat doom.py
