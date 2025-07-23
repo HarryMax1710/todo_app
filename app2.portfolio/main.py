@@ -12,5 +12,14 @@ with col2:
     content = """
     Hi, I am Hrushikesh G! I am a python programmer and a student pursuing a Diploma in Computer Science at Dayananda Sagar Institute of Technology.
     I am doing this Python Certification to Master Python and become a Python Developer.
+    I am currently preparing for DCET 2026.
+    I am aiming to finish my part of FSD Certification before 5th sem FSD subject.
+    I am a Singer who is Learning Guitar.
+    I also play Cricket and Football.
     """
     st.info(content)
+
+content2 = """
+Below you can find some of the apps i have built in Python.Feel free to contact me!
+"""
+st.write(content2)
