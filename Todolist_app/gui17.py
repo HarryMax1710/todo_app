@@ -1,8 +1,6 @@
 #Creating a Desktop GUI
-from cgitb import enable
-
-import functions
 import FreeSimpleGUI as sg
+import functions
 
 label = sg.Text("Type a todo")
 input_box = sg.InputText(tooltip="Enter todo", key = "todo")

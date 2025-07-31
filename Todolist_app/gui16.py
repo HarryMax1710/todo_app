@@ -1,5 +1,4 @@
 #Creating a Desktop GUI
-import functions
 import FreeSimpleGUI as sg
 
 label = sg.Text("Type a todo")

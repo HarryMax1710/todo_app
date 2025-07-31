@@ -1,7 +1,6 @@
 #Creating a Desktop GUI
-
-import functions
 import FreeSimpleGUI as sg
+import functions
 import time
 
 sg.theme("Black")
